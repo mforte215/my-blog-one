@@ -6,13 +6,34 @@
   width: 100%;
   background-color: white;
   height: 3rem;
-  border-bottom: 2px solid black;
+  box-shadow: 0.25px 0.25px 5px black;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link-container {
+  float: right;
 }
 
 .nav-link {
-  width: fit-content;
+  display: inline-block;
+  padding: 5px 25px 5px 0px;
+}
+
+.nav-link h2 {
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.nav-link h2:hover {
+  background-color: black;
+  color: white;
 }
 
 .logo {
   margin: 0 0 0 3em;
+  width: fit-content;
 }
